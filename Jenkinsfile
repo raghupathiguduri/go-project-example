@@ -1,4 +1,4 @@
-@Library("raghu-test@master") _
+@Library("raghu-test@main") _
 pipeline {
     agent any
     tools {
