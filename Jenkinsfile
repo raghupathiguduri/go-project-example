@@ -2,7 +2,7 @@
 pipeline {
     agent any
     tools {
-        go '1.18.3'
+        go-1.9.2 '1.18.3'
     }
     stages {
         stage('Checkout') {
