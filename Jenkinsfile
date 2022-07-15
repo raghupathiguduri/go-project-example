@@ -14,7 +14,7 @@ pipeline {
                 expression { params.BRANCH != 'develop' }
             }         
             steps {
-                gobuild()
+                goBuild()
             }
         }
     }
